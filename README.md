@@ -61,7 +61,7 @@ langage ['langages', 'lange', 'largages', 'tangages', 'langage', 'langé']<br/>
 langqge ['langages', 'lange', 'langé', 'langage']<br/>
 langagee ['langages', 'largages', 'langage', 'tangages']<br/>
 
-The find_knn function may take a number of knn to search through (default 100) and an accepted [levenshtein distance](https://en.wikipedia.org/wiki/Levenshtein_distance) for candidates.
+The find_knn function may take a number of knn to search through (default 80) and an accepted [levenshtein distance](https://en.wikipedia.org/wiki/Levenshtein_distance) for candidates.
 The higher the k variable the more chances you catch the inteded candidate for correction however this will also increase the computation time
 
 ### Installation
