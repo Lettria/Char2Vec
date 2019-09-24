@@ -1,0 +1,6 @@
+setuptools
+keras
+tensorflow
+nmslib
+numpy
+pickle
