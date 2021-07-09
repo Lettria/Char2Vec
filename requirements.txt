@@ -1,6 +1,8 @@
+#python 3.6
 setuptools
-keras
-tensorflow
+keras==2.2.5
+tensorflow==1.14
+h5py<3.0.0
 nmslib
 numpy
 pickle

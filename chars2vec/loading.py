@@ -23,8 +23,9 @@ def load_model(path = ''):
     try:
         c2v_model.model.load_weights(path_to_model + '/weights.h5')
         print("Model and weights loaded successfully " + path)
-    except:
-        print("Error loading weights " + path + "!\n")
+    except Exception as e:
+        print(e)
+        raise e
     c2v_model.embedding_model.compile(optimizer='adam', loss='mae')
     return c2v_model
 

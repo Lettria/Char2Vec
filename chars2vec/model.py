@@ -133,12 +133,13 @@ class Chars2Vec:
         Input:  path, folder containing model (must contain weights.h5 and model.pkl)
         '''
         path_to_model = os.path.dirname(os.path.abspath(__file__)) + '/trained_model/' + path
+        print("PATH", path_to_model)
         try:
             self.model.load_weights(path_to_model + '/weights.h5')
             print("\nWeights loaded successfully ")
-        except:
-            raise
+        except Exception as e:
             print("!!!Error loading weights " + path + "!!!\n")
+            raise e
         self.embedding_model.compile(optimizer='adam', loss='mae')
 
     def save_model(self, path, suffix=''):

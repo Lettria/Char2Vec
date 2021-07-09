@@ -42,6 +42,7 @@ callbacks.append(Checkpoint())
 callbacks.append(ReduceLROnPlateau(monitor='loss', factor=0.7, patience=3, verbose=0, min_lr=0.0002))
 
 X_train, y_train = r[0], r[1]
+
 data_gen = DataGenerator(X_train, y_train, char_to_ix, batch_size = 128, emb_dim = emb_dim)
 c2v_model.model.fit_generator(data_gen, epochs = 50, callbacks = callbacks)
 
