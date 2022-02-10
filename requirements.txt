@@ -1,7 +1,7 @@
 #python 3.6
 setuptools
 keras==2.2.5
-tensorflow==1.14
+tensorflow==2.5.3
 h5py<3.0.0
 nmslib
 numpy
