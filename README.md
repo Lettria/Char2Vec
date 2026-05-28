@@ -1,4 +1,16 @@
 # chars2vec
+## ⚠️ Repository Archived
+
+This repository is no longer actively maintained and has been archived.
+
+It is kept available for historical reference and for anyone who may still find the code useful, but no further updates, bug fixes, or support will be provided.
+
+👉 Looking for an actively maintained solution?
+Check out our latest service: perseus_client repository for up-to-date features and ongoing support.
+
+If you need help migrating or choosing the right alternative, feel free to reach out at hello@lettria.com.
+
+Thanks to everyone who contributed 🙌
 
 ### Character embedding model
 
